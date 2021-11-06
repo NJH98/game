@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Final1LayoutApplication<SP_1712027>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.demo.Final1LayoutApplication",
+            "projectName": "SP_1712027",
+            "args": ""
+        }
+    ]
+}

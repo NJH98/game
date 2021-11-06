@@ -11,20 +11,17 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
-@Configuration			// 빈(객체) 생성후 Spring Container에 등록하라
+@Configuration			
 @EnableWebSecurity		// Spring Security 를 시작한다
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
 	
 	@Override
 	protected void configure(HttpSecurity http) throws Exception{
 		http.authorizeRequests()
-		.antMatchers("/css/**","/js/**", "/img/**").permitAll()
-		.antMatchers("/security/**").permitAll()
-		.antMatchers("/newuser").permitAll()
-		.antMatchers("/usersave").permitAll()
-		.anyRequest().authenticated();
+		.antMatchers("/css/**","/js/**", "/image/**").permitAll()
+		.antMatchers("/**").permitAll();
 			
-		http.formLogin()												//아닌경우 loginForm을 보여준다
+		http.formLogin()												//아닌경우 hole을 보여준다
 			.loginPage("/loginForm")
 			.loginProcessingUrl("/j_spring_security_check")
 			.usernameParameter("j_username")

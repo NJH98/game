@@ -1,0 +1,319 @@
+body{
+    font-size: 18px;
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    position: relative;
+}
+.logo{
+    margin-left: 40px;
+}
+.menu{
+    display: flex;
+}
+.language{
+    background-color: black;
+    font-size: 0.9em;
+    border: 1px solid white;
+    border-radius: 4px;
+    text-align: center;
+    margin-right: 30px;
+    padding: 5px 5px 0px 5px;
+    height: 40px;
+    color: white;
+}
+.login{
+    font-size: 0.9em;
+    border: 3px solid red;
+    border-radius: 4px;
+    text-align: center;
+    background-color: red;
+    width: 80px;
+    padding-top: 4px;
+    height: 40px;
+    margin-right: 40px;
+    color: white;
+}
+.story1{
+   background:linear-gradient(to top,
+   rgba(20, 20, 20, 0) 80%,
+   rgba(20, 20, 20, 0.25) 85%,
+   rgba(20, 20, 20, 0.5) 90%,         
+   rgba(20, 20, 20, 0.75) 95%,
+   rgba(20, 20, 20, 1) 100%),
+   linear-gradient(rgba(20, 20, 20, 0) 80%,
+   rgba(20, 20, 20, 0.25) 85%,
+   rgba(20, 20, 20, 0.5) 90%,         
+   rgba(20, 20, 20, 0.75) 95%,
+   rgba(20, 20, 20, 1) 100%),
+   url("../image/main.jpg");
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   
+}
+.bg{ background-color:rgba(0, 0, 0, 0.5); 
+    width:100%; height:100vh; position: absolute; 
+    }
+.member{
+    color:white;
+    position: relative;
+    text-align: center;
+    width: 70%;
+    margin: 10% auto;
+}
+.member1{
+    font-size: 3.5em;
+    font-weight: 900;
+}
+.member2{
+    font-size: 1.4em;
+}
+.member3{
+    font-size: 1em;
+}
+.member4{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#input1{
+    height: 70px;
+    width: 500px;
+    vertical-align: middle;
+    font-size:0.8em;
+    outline:none;
+}
+#input2{
+    height: 70px;
+    width: 200px;
+    vertical-align: middle;
+    margin-left: -5px;
+    background-color: #c00;
+    font-size:1.5em;
+    border: 1px solid red;
+    border-radius: 4px;
+    color: white;
+}
+#input2:hover{
+    background-color:red;
+}
+.line{
+    height: 5px;
+    background-color: #292929;
+}
+.story2{
+    background-color: balck;
+    margin-bottom: 5%;
+}
+.STmember{
+    color:white;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.membertext{
+    width: 500px;
+}
+.sidemember1{
+    font-size: 2.8em;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+.sidemember2{
+    font-size: 1.4em;
+}
+.bottom{
+    color:gray;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+.bottomtable{
+    font-size: 0.7em;
+    margin-top: 0.5%;
+    margin-bottom: 3%;
+}
+.bottomlanguage{
+    font-size: 0.9em;
+    border: 1px solid ;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 3%;
+    padding: 10px 5px 0px 5px;
+    height: 50px;
+    width: 12%;
+}
+.bottomlast{
+    font-size: 0.65em;
+}
+.dropbtn{
+    height: 80px;
+    width: 75%;
+    color : white;
+    font-size: 1.5em;
+    background-color: #303030;
+    text-align: left;
+    padding-left: 3%;
+    border : none;
+    outline:none;
+    margin-bottom: 0.7%;
+}
+.dropbtn1{
+    height: 80px;
+    width: 75%;
+    color : white;
+    font-size: 1.5em;
+    background-color: #303030;
+    text-align: left;
+    padding-left: 3%;
+    border : none;
+    outline:none;
+    margin-bottom: 0.7%;
+}
+.dropbtn2{
+    height: 80px;
+    width: 75%;
+    color : white;
+    font-size: 1.5em;
+    background-color: #303030;
+    text-align: left;
+    padding-left: 3%;
+    border : none;
+    outline:none;
+    margin-bottom: 0.7%;
+}
+.dropbtn3{
+    height: 80px;
+    width: 75%;
+    color : white;
+    font-size: 1.5em;
+    background-color: #303030;
+    text-align: left;
+    padding-left: 3%;
+    border : none;
+    outline:none;
+    margin-bottom: 0.7%;
+}
+.dropbtn4{
+    height: 80px;
+    width: 75%;
+    color : white;
+    font-size: 1.5em;
+    background-color: #303030;
+    text-align: left;
+    padding-left: 3%;
+    border : none;
+    outline:none;
+    margin-bottom: 0.7%;
+}
+.dropbtn5{
+    height: 80px;
+    width: 75%;
+    color : white;
+    font-size: 1.5em;
+    background-color: #303030;
+    text-align: left;
+    padding-left: 3%;
+    border : none;
+    outline:none;
+    margin-bottom: 0.7%;
+}
+
+
+.dropdown {
+    position: relative;
+}
+.dropdown-content {
+    display: none;
+    position: relative;
+    text-align: left;
+    width: 75%;
+    font-size: 1.4em;
+    margin-top: -0.5%;
+    margin-left: 12.5%;
+    background-color: #303030;
+}
+.dropdown-content1 {
+    display: none;
+    position: relative;
+    text-align: left;
+    width: 75%;
+    font-size: 1.5em;
+    margin-top: -0.5%;
+    margin-left: 12.5%;
+    background-color: #292929
+}
+.dropdown-content2 {
+    display: none;
+    position: relative;
+    text-align: left;
+    width: 75%;
+    font-size: 1.5em;
+    margin-top: -0.5%;
+    margin-left: 12.5%;
+    background-color: #292929
+}
+.dropdown-content3 {
+    display: none;
+    position: relative;
+    text-align: left;
+    width: 75%;
+    font-size: 1.5em;
+    margin-top: -0.5%;
+    margin-left: 12.5%;
+    background-color: #292929
+}
+.dropdown-content4 {
+    display: none;
+    position: relative;
+    text-align: left;
+    width: 75%;
+    font-size: 1.5em;
+    margin-top: -0.5%;
+    margin-left: 12.5%;
+    background-color: #292929
+}
+.dropdown-content5 {
+    display: none;
+    position: relative;
+    text-align: left;
+    width: 75%;
+    font-size: 1.5em;
+    margin-top: -0.5%;
+    margin-left: 12.5%;
+    background-color: #292929
+}
+
+.dropdown-content p {
+    padding: 3%;
+}
+.dropdown-content1 p {
+    padding: 3%;
+}
+.dropdown-content2 p {
+    padding: 3%;
+}
+.dropdown-content3 p {
+    padding: 3%;
+}
+.dropdown-content4 p {
+    padding: 3%;
+}
+.dropdown-content5 p {
+    padding: 3%;
+}
+
+.show {display:block;}
