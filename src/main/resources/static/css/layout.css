@@ -1,0 +1,23 @@
+@charset "EUC-KR";
+body{
+		scr: url("../font/CulDeSac.ttf");
+		font-family:Cul De Sac;
+		background-color: #f4f4f4;
+}
+.header {
+	width: 800px;
+	height : 100px;
+	margin:0 auto;
+}
+
+.main{
+	width: 800px;
+	height : 350px;
+	margin:0 auto;
+}
+
+.footer{
+	width: 800px;
+	height : 10px;
+	margin:0 auto;
+}

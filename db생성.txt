@@ -1,0 +1,26 @@
+use sp_final;
+
+create table user_list (
+	name varchar(20) primary key,
+    password varchar(100),
+    authority varchar(20),
+    enabled int(1)
+);
+
+create table Snakerank(
+	name varchar(20),
+    score int(255)
+);
+
+create table JetPackrank(
+	name varchar(20),
+    score int(255)
+);
+
+create table Blockrank(
+	name varchar(20),
+    score int(255)
+);
+
+set sql_safe_updates=0;
+commit;
