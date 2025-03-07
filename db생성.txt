@@ -1,4 +1,6 @@
-use sp_final; 
+- 데이터베이스 생성-
+
+use sp_final;
 
 create table user_list (
 	name varchar(20) primary key,
